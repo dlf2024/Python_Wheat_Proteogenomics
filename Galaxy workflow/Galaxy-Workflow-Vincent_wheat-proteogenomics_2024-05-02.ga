@@ -1,0 +1,3273 @@
+{
+    "a_galaxy_workflow": "true",
+    "annotation": "",
+    "comments": [],
+    "format-version": "0.1",
+    "name": "Vincent_wheat-proteogenomics",
+    "report": {
+        "markdown": "\n# Workflow Execution Report\n\n## Workflow Inputs\n```galaxy\ninvocation_inputs()\n```\n\n## Workflow Outputs\n```galaxy\ninvocation_outputs()\n```\n\n## Workflow\n```galaxy\nworkflow_display()\n```\n"
+    },
+    "steps": {
+        "0": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 0,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Triticum_aestivum.IWGSC.dna.toplevel.fa.gz"
+                }
+            ],
+            "label": "Triticum_aestivum.IWGSC.dna.toplevel.fa.gz",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 0
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "e67196d3-d0ab-497e-8b64-1f022fbdd815",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "1": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 1,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "iwgsc_refseqv2.1_assembly.fa"
+                }
+            ],
+            "label": "iwgsc_refseqv2.1_assembly.fa",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 120
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "80e15220-410e-4298-a928-854010d93803",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "2": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 2,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "YOUNG_FLAG_LEAF.pep.xml"
+                }
+            ],
+            "label": "YOUNG_FLAG_LEAF.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 240
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "1890e267-155b-482f-87f1-8eb728f06d50",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "3": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 3,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "STEM.pep.xml"
+                }
+            ],
+            "label": "STEM.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 360
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "b2be0c04-4200-497a-a878-e6320d57a388",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "4": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 4,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "SENESCING_LEAF.pep.xml"
+                }
+            ],
+            "label": "SENESCING_LEAF.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 480
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "6325629c-c594-4533-a334-d142660dd34a",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "5": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 5,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "SEEDLING_ROOT.pep.xml"
+                }
+            ],
+            "label": "SEEDLING_ROOT.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 600
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "a8ee2cf9-4f98-4687-884b-85aa847244f0",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "6": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 6,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "ROOT_VASCULATURE.pep.xml"
+                }
+            ],
+            "label": "ROOT_VASCULATURE.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 720
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "d5aeb6b1-fcaf-4c9a-85cd-94b131b6d168",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "7": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 7,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "ROOT_TIP.pep.xml"
+                }
+            ],
+            "label": "ROOT_TIP.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 840
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "4b8ed239-8dd1-47aa-93f5-57ead3919286",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "8": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 8,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "RACHILLA.pep.xml"
+                }
+            ],
+            "label": "RACHILLA.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 960
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "e2b2c31a-6d55-4997-9c2c-d8f017e15b9e",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "9": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 9,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "POLLEN.pep.xml"
+                }
+            ],
+            "label": "POLLEN.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 1080
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "f9aa1736-0898-4bb0-85d6-4f3070b33c07",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "10": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 10,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "PERICARP.pep.xml"
+                }
+            ],
+            "label": "PERICARP.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 1200
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "f2e35b63-bf64-4444-bd53-ea4073a607f6",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "11": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 11,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "PALEA.pep.xml"
+                }
+            ],
+            "label": "PALEA.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 1320
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "7132969c-64f1-49d5-8b3b-b34c41f13bfd",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "12": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 12,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "NODE_EXC.pep.xml"
+                }
+            ],
+            "label": "NODE_EXC.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 1440
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "f9cc6055-7af5-4777-a624-2c0ecb0d64a4",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "13": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 13,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "NODE.pep.xml"
+                }
+            ],
+            "label": "NODE.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 1560
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "f29767ee-21eb-44eb-8a4d-9ad4c80fe820",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "14": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 14,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "MATURE_ROOTS_EXC.pep.xml"
+                }
+            ],
+            "label": "MATURE_ROOTS_EXC.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 1680
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "5984240c-1027-414f-9782-dfdb96e0059d",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "15": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 15,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "MATURE_ROOTS.pep.xml"
+                }
+            ],
+            "label": "MATURE_ROOTS.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 1800
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "07ac8eb9-a71e-4740-b89a-b0e8f3ce9642",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "16": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 16,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "MATURE_FLAG_LEAF.pep.xml"
+                }
+            ],
+            "label": "MATURE_FLAG_LEAF.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 1920
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "acd03e4a-8a07-4cea-a862-bbb468cf1cd6",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "17": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 17,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "LEMMA.pep.xml"
+                }
+            ],
+            "label": "LEMMA.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 2040
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "27fddcc2-69f0-433d-831a-5194126f6017",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "18": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 18,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "IMMATURE_SPIKE.pep.xml"
+                }
+            ],
+            "label": "IMMATURE_SPIKE.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 2160
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "0478bf81-5fe6-4430-a080-c378bf7b1337",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "19": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 19,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GRAIN_DEVELOPMENT_Z87.pep.xml"
+                }
+            ],
+            "label": "GRAIN_DEVELOPMENT_Z87.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 2280
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "828b59f6-520f-479c-9824-320cce17e96a",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "20": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 20,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GRAIN_DEVELOPMENT_Z83.pep.xml"
+                }
+            ],
+            "label": "GRAIN_DEVELOPMENT_Z83.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 2400
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "800bf229-e6f4-47ce-9438-dba97374e6a3",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "21": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 21,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GRAIN_DEVELOPMENT_Z75.pep.xml"
+                }
+            ],
+            "label": "GRAIN_DEVELOPMENT_Z75.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 2520
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "46543af8-0924-4cde-917d-031f08d5a1eb",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "22": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 22,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GRAIN_DEVELOPMENT_Z71.pep.xml"
+                }
+            ],
+            "label": "GRAIN_DEVELOPMENT_Z71.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 2640
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "dd7617ed-e728-4e96-b1a1-5e56915d7954",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "23": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 23,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GRAIN_DEVELOPMENT_Z70.pep.xml"
+                }
+            ],
+            "label": "GRAIN_DEVELOPMENT_Z70.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 2760
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "411fd9ea-9435-47d2-b76e-e94a58329841",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "24": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 24,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "GLUME.pep.xml"
+                }
+            ],
+            "label": "GLUME.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 2880
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "29ed41c6-1ca3-4001-a27f-880465dca917",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "25": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 25,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "ENDOSPERM.pep.xml"
+                }
+            ],
+            "label": "ENDOSPERM.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3000
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "fa7e3ce5-a189-43e6-b7e3-c8c37b926070",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "26": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 26,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "EMBRYO.pep.xml"
+                }
+            ],
+            "label": "EMBRYO.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3120
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "380dbb9b-0afd-418d-825d-c4b2cbd2777d",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "27": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 27,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "COLEOPTILE.pep.xml"
+                }
+            ],
+            "label": "COLEOPTILE.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3240
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "61a6f4a9-942f-4fd2-bb49-7ccc858a07df",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "28": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 28,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "BOOTS.pep.xml"
+                }
+            ],
+            "label": "BOOTS.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3360
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "cf882ae7-e2a1-4b24-8690-33265e4f72d0",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "29": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 29,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "ANTHER.pep.xml"
+                }
+            ],
+            "label": "ANTHER.pep.xml",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3480
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "699a5da2-80db-4d6a-b399-5ab88b8defea",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "30": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 30,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "Duncan_all_pepXML_2024-05-11.fasta"
+                }
+            ],
+            "label": "Duncan_all_pepXML_2024-05-11.fasta",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3600
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "7c696b98-a681-409d-8182-e0e39be85f58",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "31": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 31,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "01_IWGSC-karyotype_cytogenic-bands_2023-05-13_DNA_CIRCOS.BED"
+                }
+            ],
+            "label": "01_IWGSC-karyotype_cytogenic-bands_2023-05-13_DNA_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3720
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "7962f904-2c48-4fee-94a6-7642849670a9",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "32": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 32,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "02_MATURE_GRAIN_2024-05-13_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "02_MATURE_GRAIN_2024-05-13_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3840
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "c7d32207-c20d-41da-a385-f0e4ebb5bffb",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "33": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 33,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "03_GRAIN_DEVELOPMENT_Z87_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "03_GRAIN_DEVELOPMENT_Z87_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 3960
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "8ad23bce-0b86-4dc6-ad6e-6fa765767565",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "34": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 34,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "04_GRAIN_DEVELOPMENT_Z83_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "04_GRAIN_DEVELOPMENT_Z83_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 4080
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "8529fd30-e31a-4373-adcf-db3e9c4f35a3",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "35": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 35,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "05_GRAIN_DEVELOPMENT_Z75_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "05_GRAIN_DEVELOPMENT_Z75_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 4200
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "ff879640-54ef-44b6-a6a6-09d470aa273b",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "36": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 36,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "06_GRAIN_DEVELOPMENT_Z71_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "06_GRAIN_DEVELOPMENT_Z71_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 4320
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "2cb91e4c-6fc7-4975-a5b1-8ef468f96c77",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "37": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 37,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "07_GRAIN_DEVELOPMENT_Z70_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "07_GRAIN_DEVELOPMENT_Z70_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 4440
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9ba6afaa-3e14-41d5-87f8-15d01d007b0f",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "38": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 38,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "08_ENDOSPERM_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "08_ENDOSPERM_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 4560
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "80b26110-cc15-41d4-8b56-ef3922f3be3f",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "39": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 39,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "09_EMBRYO_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "09_EMBRYO_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 4680
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "10c9db8e-ba37-4f9d-bd65-c3f007640d17",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "40": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 40,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "10_PERICARP_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "10_PERICARP_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 4800
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "be01ba1e-ca4a-41a0-8c4f-5affebf250f4",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "41": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 41,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "11_POLLEN_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "11_POLLEN_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 4920
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "731e4f4c-4f6c-4705-a2c9-6319e590e48c",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "42": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 42,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "12_ANTHER_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "12_ANTHER_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 5040
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "2bd4f53e-6bce-4dc8-a29c-652b2a493ebd",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "43": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 43,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "13_LEMMA_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "13_LEMMA_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 5160
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "1c828aef-7427-46cc-a86c-1b0898ff268d",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "44": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 44,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "14_GLUME_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "14_GLUME_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 5280
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9d306920-1690-4890-bad4-5d8f1ad7293e",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "45": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 45,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "15_PALEA_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "15_PALEA_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 5400
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9dae4d5e-1a0c-4df2-b173-4fbee2d1a212",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "46": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 46,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "16_IMMATURE_SPIKE_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "16_IMMATURE_SPIKE_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 5520
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "9cb15d99-3b0c-490a-887f-9369dfe7a4f4",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "47": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 47,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "17_RACHILLA_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "17_RACHILLA_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 5640
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "27a7f4cf-fc3b-41b2-9c2e-4a6f834d2ab5",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "48": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 48,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "18_SENESCING_LEAF_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "18_SENESCING_LEAF_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 5760
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "8b376597-89ff-4f40-acbf-4cc778f5f3cf",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "49": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 49,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "19_MATURE_FLAG_LEAF_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "19_MATURE_FLAG_LEAF_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 5880
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "c2dfe87a-bf18-467e-996a-1e7eb0c8540d",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "50": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 50,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "20_BOOTS_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "20_BOOTS_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6000
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "01a9e3ee-b726-4971-ba18-f957778461de",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "51": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 51,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "21_NODE_EXC_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "21_NODE_EXC_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6120
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "29431b86-8187-4e0a-acc6-d830b9193bf8",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "52": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 52,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "22_NODE_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "22_NODE_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6240
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "30343829-ba14-4f24-9706-33436c6309a2",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "53": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 53,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "23_YOUNG_FLAG_LEAF_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "23_YOUNG_FLAG_LEAF_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6360
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "4d7fdab9-efd0-4d23-bc89-9b93598ee7f4",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "54": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 54,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "24_STEM_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "24_STEM_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6480
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "d58b08c6-a6fe-406c-a86e-6385c011ab96",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "55": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 55,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "25_COLEOPTILE_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "25_COLEOPTILE_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6600
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "a7f7bc5a-c36e-4749-972a-df73a5567f43",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "56": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 56,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "26_MATURE_ROOTS_EXC_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "26_MATURE_ROOTS_EXC_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6720
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "755d9791-2fdd-44c1-8920-cb8464be269f",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "57": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 57,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "27_MATURE_ROOTS_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "27_MATURE_ROOTS_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6840
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "6988c249-8150-45bd-b1ba-0b4eb21e14f3",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "58": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 58,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "28_ROOT_TIP_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "28_ROOT_TIP_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 6960
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "22ec8ecb-3f4c-40e0-a0f3-7dd0f42041bb",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "59": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 59,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "29_ROOT_VASCULATURE_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "29_ROOT_VASCULATURE_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 7080
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "ecac9c2d-767d-48c1-ab25-cb243bbf3aa0",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "60": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 60,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "30_SEEDLING_ROOT_2024-05-20_peptides_CIRCOS.BED"
+                }
+            ],
+            "label": "30_SEEDLING_ROOT_2024-05-20_peptides_CIRCOS.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 7200
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "38856363-22e7-4834-bab5-e4d913946873",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "61": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 61,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "02b_MATURE_GRAIN_2024-05-13_peptides_CIRCOS_noChrUn.BED"
+                }
+            ],
+            "label": "02b_MATURE_GRAIN_2024-05-13_peptides_CIRCOS_noChrUn.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 7320
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "7bbcfbf7-0285-4ff9-9c55-0b9b26e5018c",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "62": {
+            "annotation": "",
+            "content_id": null,
+            "errors": null,
+            "id": 62,
+            "input_connections": {},
+            "inputs": [
+                {
+                    "description": "",
+                    "name": "01c_IWGSC-karyotype_cytogenic-bands_2023-05-13_DNA_CIRCOS_noChrUn.BED"
+                }
+            ],
+            "label": "01c_IWGSC-karyotype_cytogenic-bands_2023-05-13_DNA_CIRCOS_noChrUn.BED",
+            "name": "Input dataset",
+            "outputs": [],
+            "position": {
+                "left": 0,
+                "top": 7440
+            },
+            "tool_id": null,
+            "tool_state": "{\"optional\": false, \"tag\": null}",
+            "tool_version": null,
+            "type": "data_input",
+            "uuid": "a972773d-b7bf-4faa-912c-7caf3cd00373",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "63": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.3+galaxy1",
+            "errors": null,
+            "id": 63,
+            "input_connections": {},
+            "inputs": [],
+            "label": null,
+            "name": "Concatenate datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 0,
+                "top": 7560
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.3+galaxy1",
+            "tool_shed_repository": {
+                "changeset_revision": "fbf99087e067",
+                "name": "text_processing",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"inputs\": null, \"queries\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "9.3+galaxy1",
+            "type": "tool",
+            "uuid": "d84ea190-970f-432c-8bd5-c630ad204427",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "64": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.3+galaxy1",
+            "errors": null,
+            "id": 64,
+            "input_connections": {},
+            "inputs": [],
+            "label": null,
+            "name": "Concatenate datasets",
+            "outputs": [
+                {
+                    "name": "out_file1",
+                    "type": "input"
+                }
+            ],
+            "position": {
+                "left": 0,
+                "top": 7680
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_cat/9.3+galaxy1",
+            "tool_shed_repository": {
+                "changeset_revision": "fbf99087e067",
+                "name": "text_processing",
+                "owner": "bgruening",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"inputs\": null, \"queries\": [], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "9.3+galaxy1",
+            "type": "tool",
+            "uuid": "7a2785de-5042-4e2c-98f5-62b4428b75c7",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "65": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.10.1+galaxy2",
+            "errors": null,
+            "id": 65,
+            "input_connections": {
+                "input_file": {
+                    "id": 1,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "NCBI BLAST+ makeblastdb",
+            "outputs": [
+                {
+                    "name": "outfile",
+                    "type": "data"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 0
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_makeblastdb/2.10.1+galaxy2",
+            "tool_shed_repository": {
+                "changeset_revision": "0e3cf9594bb7",
+                "name": "ncbi_blast_plus",
+                "owner": "devteam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"input\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"dbtype\": \"nucl\", \"hash_index\": true, \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"mask_data_file\": null, \"parse_seqids\": true, \"tax\": {\"taxselect\": \"id\", \"__current_case__\": 1, \"taxid\": \"4565\"}, \"title\": \"\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "2.10.1+galaxy2",
+            "type": "tool",
+            "uuid": "27fedc7e-7ee6-49ea-b212-5414b4b71df4",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "66": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 66,
+            "input_connections": {
+                "input_file": {
+                    "id": 2,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 120
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "6bc0599d-9f78-4f89-9027-f267232eb7cb",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "67": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 67,
+            "input_connections": {
+                "input_file": {
+                    "id": 3,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 240
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "a4b83a53-392a-4837-9e28-55b884906847",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "68": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 68,
+            "input_connections": {
+                "input_file": {
+                    "id": 4,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 360
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "1631020c-1eeb-4c50-a36c-10a40187cb2b",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "69": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 69,
+            "input_connections": {
+                "input_file": {
+                    "id": 5,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 480
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "1aca7a7e-48f5-4a8f-a524-3a198af94f0b",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "70": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 70,
+            "input_connections": {
+                "input_file": {
+                    "id": 6,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 600
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "89c7d5ff-5b45-4f75-ab53-62e85f2df8f0",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "71": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 71,
+            "input_connections": {
+                "input_file": {
+                    "id": 7,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 720
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "10b07580-e0fa-4d64-a0bb-4d53866240d1",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "72": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 72,
+            "input_connections": {
+                "input_file": {
+                    "id": 8,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 840
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "e476652b-2157-41a6-90d8-c3b430e617cf",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "73": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 73,
+            "input_connections": {
+                "input_file": {
+                    "id": 9,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 960
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "540f3883-003f-46ea-a8cb-0b9315622886",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "74": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 74,
+            "input_connections": {
+                "input_file": {
+                    "id": 10,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 1080
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "9520de87-fc7e-42f4-a33f-5d7a2488ca1f",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "75": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 75,
+            "input_connections": {
+                "input_file": {
+                    "id": 11,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 1200
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "aec751b6-da61-4052-9f87-2da222aec95c",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "76": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 76,
+            "input_connections": {
+                "input_file": {
+                    "id": 12,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 1320
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "428fd625-5057-4e44-a5b8-4350d18a9f97",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "77": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 77,
+            "input_connections": {
+                "input_file": {
+                    "id": 13,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 1440
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "34773187-92f5-44f7-a3d1-6510468ad486",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "78": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 78,
+            "input_connections": {
+                "input_file": {
+                    "id": 14,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 1560
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "353fdd74-3a82-4fb8-a1e2-61e1efcf62bd",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "79": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 79,
+            "input_connections": {
+                "input_file": {
+                    "id": 15,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 1680
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "c4350059-0c45-42ef-ad29-7c4cea079762",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "80": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 80,
+            "input_connections": {
+                "input_file": {
+                    "id": 16,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 1800
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "ea1fc6b4-39a1-473e-b9b6-2877c765e96d",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "81": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 81,
+            "input_connections": {
+                "input_file": {
+                    "id": 17,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 1920
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "b83728d3-7fdb-4bdd-86f9-f18fff26fff8",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "82": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 82,
+            "input_connections": {
+                "input_file": {
+                    "id": 18,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 2040
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "9a54f947-5066-46cb-ab10-7b0d7d2efc5d",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "83": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 83,
+            "input_connections": {
+                "input_file": {
+                    "id": 19,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 2160
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "85f313b2-c991-4c52-a7c9-a8de8015bf4c",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "84": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 84,
+            "input_connections": {
+                "input_file": {
+                    "id": 20,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 2280
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "6056d4af-7d6d-4fbf-9bac-4ed59b27024b",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "85": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 85,
+            "input_connections": {
+                "input_file": {
+                    "id": 21,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 2400
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "c2d95387-4345-4aaa-b59b-cb62b75655b0",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "86": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 86,
+            "input_connections": {
+                "input_file": {
+                    "id": 22,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 2520
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "98671be3-8736-443b-8c95-46428ecedd14",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "87": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 87,
+            "input_connections": {
+                "input_file": {
+                    "id": 23,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 2640
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "a57f9d0d-7739-40c3-8ca3-df8da1b845b7",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "88": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 88,
+            "input_connections": {
+                "input_file": {
+                    "id": 24,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 2760
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "0c0ce96f-6743-4fce-9460-35a44f6aaf71",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "89": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 89,
+            "input_connections": {
+                "input_file": {
+                    "id": 25,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 2880
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "b5df61ca-4bd4-44d8-87de-3aa54c7090f3",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "90": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 90,
+            "input_connections": {
+                "input_file": {
+                    "id": 26,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 3000
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "57c4eb5a-754b-4814-8419-6b3aaf38c5a6",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "91": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 91,
+            "input_connections": {
+                "input_file": {
+                    "id": 27,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 3120
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "3ea92baa-3f70-4496-8b61-44c8cc233dfd",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "92": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 92,
+            "input_connections": {
+                "input_file": {
+                    "id": 28,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 3240
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "47bec6dc-e06b-4599-849e-d8d54a66b41b",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "93": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "errors": null,
+            "id": 93,
+            "input_connections": {
+                "input_file": {
+                    "id": 29,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "PepXML to Table",
+            "outputs": [
+                {
+                    "name": "output",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 3360
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iracooke/tpp_prophets/pepxml_to_table_1/1.1.1",
+            "tool_shed_repository": {
+                "changeset_revision": "868e75fc0f70",
+                "name": "tpp_prophets",
+                "owner": "iracooke",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"pepxml\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"input_file\": {\"__class__\": \"ConnectedValue\"}, \"invert_probs\": false, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "1.1.1",
+            "type": "tool",
+            "uuid": "f05402a4-27ab-427a-8087-78b0cea2946c",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "94": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy8",
+            "errors": null,
+            "id": 94,
+            "input_connections": {
+                "reference_genome|ref|input_karyotype": {
+                    "id": 62,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_0|plot_format|data_source": {
+                    "id": 61,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_10|plot_format|data_source": {
+                    "id": 42,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_11|plot_format|data_source": {
+                    "id": 43,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_12|plot_format|data_source": {
+                    "id": 44,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_13|plot_format|data_source": {
+                    "id": 45,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_14|plot_format|data_source": {
+                    "id": 46,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_15|plot_format|data_source": {
+                    "id": 47,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_16|plot_format|data_source": {
+                    "id": 48,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_17|plot_format|data_source": {
+                    "id": 49,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_18|plot_format|data_source": {
+                    "id": 50,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_19|plot_format|data_source": {
+                    "id": 51,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_1|plot_format|data_source": {
+                    "id": 33,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_20|plot_format|data_source": {
+                    "id": 52,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_21|plot_format|data_source": {
+                    "id": 53,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_22|plot_format|data_source": {
+                    "id": 54,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_23|plot_format|data_source": {
+                    "id": 55,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_24|plot_format|data_source": {
+                    "id": 56,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_25|plot_format|data_source": {
+                    "id": 57,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_26|plot_format|data_source": {
+                    "id": 58,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_27|plot_format|data_source": {
+                    "id": 59,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_28|plot_format|data_source": {
+                    "id": 60,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_2|plot_format|data_source": {
+                    "id": 34,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_3|plot_format|data_source": {
+                    "id": 35,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_4|plot_format|data_source": {
+                    "id": 36,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_5|plot_format|data_source": {
+                    "id": 37,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_6|plot_format|data_source": {
+                    "id": 38,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_7|plot_format|data_source": {
+                    "id": 39,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_8|plot_format|data_source": {
+                    "id": 40,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_9|plot_format|data_source": {
+                    "id": 41,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Circos",
+            "outputs": [
+                {
+                    "name": "output_png",
+                    "type": "png"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 3480
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy8",
+            "tool_shed_repository": {
+                "changeset_revision": "7f13dc906cb9",
+                "name": "circos",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"bed\", \"chromInfo\": \"/mnt/custom-indices/triAes1/len/triAes1.len\", \"ideogram\": {\"limit_chromosomes\": null, \"chromosomes_reverse\": null, \"units\": \"mb\", \"spacing\": \"0.0\", \"pairwise_spacing\": [{\"__index__\": 0, \"chr1\": \"Chr1A\", \"chr2\": \"Chr7D\", \"spacing\": \"1000.0\"}], \"radius\": \"0.9\", \"thickness\": \"100.0\", \"angle_offset\": \"-80\", \"angle_orientation\": \"clockwise\", \"ideogram_labels\": {\"show_label\": true, \"radius_offset\": \"0.005\", \"size\": \"80\", \"parallel\": true}, \"bands\": {\"show_bands\": true, \"fill_bands\": true, \"band_transparency\": \"5\", \"band_stroke_thickness\": \"5\", \"band_stroke_color\": \"#0d2eaf\"}}, \"limits\": {\"max_ticks\": \"5000\", \"max_ideograms\": \"200\", \"max_links\": \"25000\", \"max_points_per_track\": \"25000\"}, \"outputs\": {\"png\": true, \"svg\": false, \"tar\": false}, \"plot_options\": {\"background\": {\"background_select\": \"color\", \"__current_case__\": 1, \"background_color\": \"#ffffff\"}, \"radius\": \"3000\", \"colour_profile\": null}, \"reference_genome\": {\"ref\": {\"ref_source\": \"karyotype\", \"__current_case__\": 3, \"input_karyotype\": {\"__class__\": \"ConnectedValue\"}}}, \"scaling\": {\"zooms\": [{\"__index__\": 0, \"chr\": \"Chr2D\", \"start\": \"80.0\", \"end\": \"100.0\", \"scale\": \"10.0\"}]}, \"sec_links\": {\"data\": []}, \"sec_tdd\": {\"data\": [{\"__index__\": 0, \"r1\": \"0.99\", \"r0\": \"0.96\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#e4a137\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 1, \"r1\": \"0.96\", \"r0\": \"0.93\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#e4b44f\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 2, \"r1\": \"0.93\", \"r0\": \"0.9\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#ecc661\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 3, \"r1\": \"0.9\", \"r0\": \"0.87\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#ffd76e\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 4, \"r1\": \"0.87\", \"r0\": \"0.84\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#fee462\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 5, \"r1\": \"0.84\", \"r0\": \"0.81\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#fff0a7\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 6, \"r1\": \"0.81\", \"r0\": \"0.78\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f9d0f5\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 7, \"r1\": \"0.78\", \"r0\": \"0.75\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#e4aae4\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 8, \"r1\": \"0.75\", \"r0\": \"0.72\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f5cdcd\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 9, \"r1\": \"0.72\", \"r0\": \"0.69\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f2a1a1\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 10, \"r1\": \"0.69\", \"r0\": \"0.66\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f09494\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 11, \"r1\": \"0.66\", \"r0\": \"0.63\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#0ba200\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 12, \"r1\": \"0.63\", \"r0\": \"0.6\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#44b401\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 13, \"r1\": \"0.6\", \"r0\": \"0.57\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#65c800\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 14, \"r1\": \"0.57\", \"r0\": \"0.54\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#7ddf00\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 15, \"r1\": \"0.54\", \"r0\": \"0.51\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#8cf900\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 16, \"r1\": \"0.51\", \"r0\": \"0.48\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f78400\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 17, \"r1\": \"0.48\", \"r0\": \"0.45\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#194108\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 18, \"r1\": \"0.45\", \"r0\": \"0.42\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#6d8640\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 19, \"r1\": \"0.42\", \"r0\": \"0.39\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#48743c\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 20, \"r1\": \"0.39\", \"r0\": \"0.36\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#55903b\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 21, \"r1\": \"0.36\", \"r0\": \"0.33\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#7eaf67\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 22, \"r1\": \"0.33\", \"r0\": \"0.3\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#a5c695\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 23, \"r1\": \"0.3\", \"r0\": \"0.27\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#c8dcbe\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 24, \"r1\": \"0.27\", \"r0\": \"0.24\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#52321e\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 25, \"r1\": \"0.24\", \"r0\": \"0.21\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#734d35\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 26, \"r1\": \"0.21\", \"r0\": \"0.18\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#ad7750\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 27, \"r1\": \"0.18\", \"r0\": \"0.15\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#b89277\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 28, \"r1\": \"0.15\", \"r0\": \"0.12\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#bdab9d\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}]}, \"ticks\": {\"radius\": \"1.0\", \"skip_first_label\": false, \"skip_last_label\": false, \"tick_group\": []}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.69.8+galaxy8",
+            "type": "tool",
+            "uuid": "2b5bd31d-ae40-42b2-830d-53408801e5b3",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "95": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy8",
+            "errors": null,
+            "id": 95,
+            "input_connections": {
+                "reference_genome|ref|input_karyotype": {
+                    "id": 62,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_0|plot_format|data_source": {
+                    "id": 61,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_10|plot_format|data_source": {
+                    "id": 42,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_11|plot_format|data_source": {
+                    "id": 43,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_12|plot_format|data_source": {
+                    "id": 44,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_13|plot_format|data_source": {
+                    "id": 45,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_14|plot_format|data_source": {
+                    "id": 46,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_15|plot_format|data_source": {
+                    "id": 47,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_16|plot_format|data_source": {
+                    "id": 48,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_17|plot_format|data_source": {
+                    "id": 49,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_18|plot_format|data_source": {
+                    "id": 50,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_19|plot_format|data_source": {
+                    "id": 51,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_1|plot_format|data_source": {
+                    "id": 33,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_20|plot_format|data_source": {
+                    "id": 52,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_21|plot_format|data_source": {
+                    "id": 53,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_22|plot_format|data_source": {
+                    "id": 54,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_23|plot_format|data_source": {
+                    "id": 55,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_24|plot_format|data_source": {
+                    "id": 56,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_25|plot_format|data_source": {
+                    "id": 57,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_26|plot_format|data_source": {
+                    "id": 58,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_27|plot_format|data_source": {
+                    "id": 59,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_28|plot_format|data_source": {
+                    "id": 60,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_2|plot_format|data_source": {
+                    "id": 34,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_3|plot_format|data_source": {
+                    "id": 35,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_4|plot_format|data_source": {
+                    "id": 36,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_5|plot_format|data_source": {
+                    "id": 37,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_6|plot_format|data_source": {
+                    "id": 38,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_7|plot_format|data_source": {
+                    "id": 39,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_8|plot_format|data_source": {
+                    "id": 40,
+                    "output_name": "output"
+                },
+                "sec_tdd|data_9|plot_format|data_source": {
+                    "id": 41,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [],
+            "label": null,
+            "name": "Circos",
+            "outputs": [
+                {
+                    "name": "output_png",
+                    "type": "png"
+                }
+            ],
+            "position": {
+                "left": 220,
+                "top": 3600
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/circos/circos/0.69.8+galaxy8",
+            "tool_shed_repository": {
+                "changeset_revision": "7f13dc906cb9",
+                "name": "circos",
+                "owner": "iuc",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"bed\", \"chromInfo\": \"/mnt/custom-indices/triAes1/len/triAes1.len\", \"ideogram\": {\"limit_chromosomes\": \"Chr2D\", \"chromosomes_reverse\": null, \"units\": \"mb\", \"spacing\": \"0.0\", \"pairwise_spacing\": [], \"radius\": \"0.9\", \"thickness\": \"30.0\", \"angle_offset\": \"-90\", \"angle_orientation\": \"clockwise\", \"ideogram_labels\": {\"show_label\": true, \"radius_offset\": \"0.01\", \"size\": \"50\", \"parallel\": true}, \"bands\": {\"show_bands\": true, \"fill_bands\": true, \"band_transparency\": \"3\", \"band_stroke_thickness\": \"2\", \"band_stroke_color\": \"#0d2eaf\"}}, \"limits\": {\"max_ticks\": \"5000\", \"max_ideograms\": \"200\", \"max_links\": \"25000\", \"max_points_per_track\": \"25000\"}, \"outputs\": {\"png\": true, \"svg\": false, \"tar\": false}, \"plot_options\": {\"background\": {\"background_select\": \"color\", \"__current_case__\": 1, \"background_color\": \"#ffffff\"}, \"radius\": \"500\", \"colour_profile\": null}, \"reference_genome\": {\"ref\": {\"ref_source\": \"karyotype\", \"__current_case__\": 3, \"input_karyotype\": {\"__class__\": \"ConnectedValue\"}}}, \"scaling\": {\"zooms\": []}, \"sec_links\": {\"data\": []}, \"sec_tdd\": {\"data\": [{\"__index__\": 0, \"r1\": \"0.99\", \"r0\": \"0.96\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#e4a137\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 1, \"r1\": \"0.96\", \"r0\": \"0.93\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#e4b44f\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 2, \"r1\": \"0.93\", \"r0\": \"0.9\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#ecc661\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 3, \"r1\": \"0.9\", \"r0\": \"0.87\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#ffd76e\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 4, \"r1\": \"0.87\", \"r0\": \"0.84\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#fee462\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 5, \"r1\": \"0.84\", \"r0\": \"0.81\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#fff0a7\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 6, \"r1\": \"0.81\", \"r0\": \"0.78\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f9d0f5\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 7, \"r1\": \"0.78\", \"r0\": \"0.75\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#e4aae4\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 8, \"r1\": \"0.75\", \"r0\": \"0.72\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f5cdcd\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 9, \"r1\": \"0.72\", \"r0\": \"0.69\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f2a1a1\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 10, \"r1\": \"0.69\", \"r0\": \"0.66\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f09494\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 11, \"r1\": \"0.66\", \"r0\": \"0.63\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#0ba200\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 12, \"r1\": \"0.63\", \"r0\": \"0.6\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#44b401\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 13, \"r1\": \"0.6\", \"r0\": \"0.57\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#65c800\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 14, \"r1\": \"0.57\", \"r0\": \"0.54\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#7ddf00\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 15, \"r1\": \"0.54\", \"r0\": \"0.51\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#8cf900\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 16, \"r1\": \"0.51\", \"r0\": \"0.48\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#f78400\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 17, \"r1\": \"0.48\", \"r0\": \"0.45\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#194108\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 18, \"r1\": \"0.45\", \"r0\": \"0.42\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#6d8640\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 19, \"r1\": \"0.42\", \"r0\": \"0.39\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#48743c\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 20, \"r1\": \"0.39\", \"r0\": \"0.36\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#55903b\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 21, \"r1\": \"0.36\", \"r0\": \"0.33\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#7eaf67\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 22, \"r1\": \"0.33\", \"r0\": \"0.3\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#a5c695\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 23, \"r1\": \"0.3\", \"r0\": \"0.27\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#c8dcbe\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 24, \"r1\": \"0.27\", \"r0\": \"0.24\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#52321e\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 25, \"r1\": \"0.24\", \"r0\": \"0.21\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#734d35\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 26, \"r1\": \"0.21\", \"r0\": \"0.18\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#ad7750\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 27, \"r1\": \"0.18\", \"r0\": \"0.15\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#b89277\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}, {\"__index__\": 28, \"r1\": \"0.15\", \"r0\": \"0.12\", \"zdepth\": \"0\", \"plot_format\": {\"plot_format_select\": \"highlight\", \"__current_case__\": 3, \"data_source\": {\"__class__\": \"ConnectedValue\"}, \"format_specific\": {\"fill_color\": \"#bdab9d\", \"fill_color_alpha\": \"1.0\", \"stroke_color\": \"#000000\", \"stroke_color_alpha\": \"0.0\", \"stroke_thickness\": \"0\"}}, \"orientation\": false, \"minsize\": \"0.0\", \"minmax\": {\"minmax_select\": \"no\", \"__current_case__\": 1}, \"sec_rule\": {\"rules\": []}, \"sec_axes\": {\"axes\": [], \"only_if_data\": \"always\"}, \"sec_bkgs\": {\"backgrounds\": [], \"only_if_data\": \"always\"}}]}, \"ticks\": {\"radius\": \"1.0\", \"skip_first_label\": false, \"skip_last_label\": false, \"tick_group\": []}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "0.69.8+galaxy8",
+            "type": "tool",
+            "uuid": "83b18e7d-13d1-4b25-8f9a-8a8a81153279",
+            "when": null,
+            "workflow_outputs": []
+        },
+        "96": {
+            "annotation": "",
+            "content_id": "toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastn_wrapper/2.10.1+galaxy2",
+            "errors": null,
+            "id": 96,
+            "input_connections": {
+                "db_opts|histdb": {
+                    "id": 65,
+                    "output_name": "outfile"
+                },
+                "query": {
+                    "id": 30,
+                    "output_name": "output"
+                }
+            },
+            "inputs": [
+                {
+                    "description": "runtime parameter for tool NCBI BLAST+ tblastn",
+                    "name": "db_opts"
+                }
+            ],
+            "label": null,
+            "name": "NCBI BLAST+ tblastn",
+            "outputs": [
+                {
+                    "name": "output1",
+                    "type": "tabular"
+                }
+            ],
+            "position": {
+                "left": 440,
+                "top": 0
+            },
+            "post_job_actions": {},
+            "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/ncbi_blast_plus/ncbi_tblastn_wrapper/2.10.1+galaxy2",
+            "tool_shed_repository": {
+                "changeset_revision": "0e3cf9594bb7",
+                "name": "ncbi_blast_plus",
+                "owner": "devteam",
+                "tool_shed": "toolshed.g2.bx.psu.edu"
+            },
+            "tool_state": "{\"__input_ext\": \"fasta\", \"adv_opts\": {\"adv_opts_selector\": \"advanced\", \"__current_case__\": 1, \"db_gencode\": \"1\", \"filter_query\": true, \"matrix_gapcosts\": {\"matrix\": \"PAM30\", \"__current_case__\": 8, \"gap_costs\": \"-gapopen 10 -gapextend 1\"}, \"max_hits\": \"3\", \"max_hsps\": \"1\", \"word_size\": null, \"parse_deflines\": false, \"adv_optional_id_files_opts\": {\"adv_optional_id_files_opts_selector\": \"none\", \"__current_case__\": 0}, \"qcov_hsp_perc\": \"25.0\", \"window_size\": null, \"threshold\": null, \"comp_based_stats\": \"\"}, \"blast_type\": \"tblastn\", \"chromInfo\": \"/mnt/tools/tool-data/shared/ucsc/chrom/?.len\", \"db_opts\": {\"db_opts_selector\": \"histdb\", \"__current_case__\": 1, \"database\": \"\", \"histdb\": {\"__class__\": \"ConnectedValue\"}, \"subject\": \"\"}, \"evalue_cutoff\": \"0.01\", \"output\": {\"out_format\": \"ext\", \"__current_case__\": 1}, \"query\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_version": "2.10.1+galaxy2",
+            "type": "tool",
+            "uuid": "a90fe36e-e95f-4927-a6a2-da2601c83320",
+            "when": null,
+            "workflow_outputs": []
+        }
+    },
+    "tags": [],
+    "uuid": "87e2dabe-1870-410d-afe8-4772eee1296c",
+    "version": 1
+}
